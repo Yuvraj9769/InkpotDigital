@@ -3542,6 +3542,11 @@ Index 02 Why Only Us Area CSS
 /*================================================
 Index 02 Testimonial Area CSS
 =================================================*/
+
+.testimonial .happy-client {
+  color: #0d4534;
+}
+
 .testimonial-card-2 {
   margin: 20px 15px 0px;
   padding: 10px;
@@ -3648,6 +3653,11 @@ Index 02 Why Choose US Area CSS
 /*================================================
 Index 02 Blog Area CSS
 =================================================*/
+
+.blog .latest-articles {
+  color: #0d4534;
+}
+
 .blog-card-2 .blog-img-area .blog-img-date {
   border-radius: 10px;
 }
@@ -3785,6 +3795,11 @@ Index 03 About Area CSS
 /*================================================
 Index 03 Services Area CSS
 =================================================*/
+
+.services .what-offer {
+  color: #0d4534;
+}
+
 .service-card-3 {
   border-radius: 10px;
   margin: 30px 15px 0px;
