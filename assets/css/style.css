@@ -2061,6 +2061,7 @@ Index 01 Features Area CSS
   position: absolute;
   left: 30px;
   z-index: 1;
+  color: white;
 }
 
 .features-card h4 {
@@ -2084,10 +2085,6 @@ Index 01 Features Area CSS
   position: relative;
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
-  color: white;
-}
-
-.features-card .fa-solid{
   color: white;
 }
 
