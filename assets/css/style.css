@@ -3320,6 +3320,10 @@ Index 02 About Area CSS
   color: white;
 }
 
+.about .about-comp {
+  color: white;
+}
+
 .about-img-2 {
   position: relative;
   padding: 30px;
