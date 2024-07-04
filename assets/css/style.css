@@ -671,19 +671,23 @@ a.meanmenu-reveal {
   transition: 0.5s;
 }
 
-nav .navbar-brand .inkpot-logo {
-  filter: invert(1);
+nav .black-logo {
+  display: block;
 }
 
-.sticky nav .navbar-brand img {
-  color: white;
+nav .sticky-logo {
+  display: none;
 }
 
-.sticky nav .navbar-brand .inkpot-logo {
-  filter: invert(0);
+.sticky nav .black-logo {
+  display: none;
 }
 
-.sticky .navbar-light .navbar-brand .black-logo {
+.sticky .sticky-logo {
+  display: block;
+}
+
+.sticky .navbar-brand .sticky .navbar-light .navbar-brand .black-logo {
   display: block;
 }
 
@@ -1374,18 +1378,21 @@ Header Responsive Area CSS
     transform: translateX(-50%);
     z-index: 999;
     position: absolute;
-    color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
   }
 
-  .mobile-nav .inkpot-logo-mobile {
-    filter: invert(1);
+  .sticky .mobile-nav .sticky-logo {
+    display: block;
   }
 
-  .sticky .inkpot-logo-mobile {
-    filter: invert(0);
+  .mobile-nav .black-logo {
+    display: block;
+  }
+
+  .mobile-nav .sticky-logo {
+    display: none;
   }
 
   .m-glitter {
@@ -1799,7 +1806,7 @@ Buy Now Btn
 Default button Area CSS
 =================================================*/
 .default-button {
-  padding: 15px 25px;
+  padding: 12px 15px;
   border-radius: 9999px;
   position: relative;
   display: inline-block;
