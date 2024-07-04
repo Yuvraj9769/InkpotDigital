@@ -214,7 +214,7 @@ p:last-child {
 }
 
 .sticky .navbar-nav a{
-  color: #000000 !important;
+  color: #0D4534 !important;
 }
 
 
@@ -1876,13 +1876,15 @@ Default Section Title Area CSS
   margin-right: auto;
 }
 
-.gradient-bg1 {
+/* For green like bg animation */
+
+/* .gradient-bg1 {
   background: -webkit-gradient(linear, left top, right bottom, from(#ffffff), color-stop(#e2f3f7), color-stop(#ffffff), color-stop(#e2f3f7), color-stop(#ffffff), to(#e2f3f7));
   background: linear-gradient(to bottom right, #ffffff, #e2f3f7, #ffffff, #e2f3f7, #ffffff, #e2f3f7);
   background-size: 250%;
   -webkit-animation: background-colors 20s infinite linear forwards;
           animation: background-colors 20s infinite linear forwards;
-}
+} */
 
 /*================================================
 Index 01 Banner Area CSS
