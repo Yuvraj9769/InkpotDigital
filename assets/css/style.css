@@ -1368,7 +1368,7 @@ Header Responsive Area CSS
     position: relative;
   }
   .mobile-nav .logo {
-    top: 50%;
+    top: 10px;
     width: fit-content;
     right: 0px;
     z-index: 999;
