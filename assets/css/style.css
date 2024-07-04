@@ -3203,10 +3203,19 @@ Index 02 Service Area CSS
   font-weight: 600;
 }
 
+.service-card-2-text .read-more-btn, .service-card-2-text p , .service-card-2-text h4 a{
+  color: white;
+}
+
+.service-card-2-text h4 a:hover, .service-card-2-text .read-more-btn:hover{
+  color: var(--mainColor);
+}
+
 .service-card-2 img{
   padding: 5px;
   border-radius: 10px;
 }
+
 
 .slider-area-nav {
   position: relative;
