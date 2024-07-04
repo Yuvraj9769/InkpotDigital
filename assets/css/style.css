@@ -2049,7 +2049,7 @@ Index 01 Features Area CSS
   -webkit-box-shadow: var(--boxShadow);
           box-shadow: var(--boxShadow);
   padding: 30px 30px 25px 105px;
-  background-color: var(--whiteColor);
+  background-color: var(--mainColor);
   cursor: pointer;
 }
 
@@ -2076,6 +2076,7 @@ Index 01 Features Area CSS
 .features-card h4 a {
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
+  color: white;
 }
 
 .features-card p {
@@ -2083,31 +2084,9 @@ Index 01 Features Area CSS
   position: relative;
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
+  color: white;
 }
 
-.features-card::before {
-  content: '';
-  width: 0%;
-  height: 100%;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  background-color: #FF8C68;
-  position: absolute;
-  left: unset;
-  right: 0;
-  top: 0;
-  z-index: 0;
-}
-
-.features-card:hover i, .features-card:hover h4, .features-card:hover a, .features-card:hover p {
-  color: var(--fixWhiteColor);
-}
-
-.features-card:hover::before {
-  width: 100%;
-  right: unset;
-  left: 0;
-}
 
 /*================================================
 Index 01 About Area CSS
