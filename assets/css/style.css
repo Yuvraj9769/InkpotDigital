@@ -1902,7 +1902,7 @@ Default Section Title Area CSS
   display: inline-block;
   padding-left: 15px;
   line-height: 1;
-  color: var(--mainColor);
+  color: white;
   font-size: 18px;
   font-weight: 500;
   font-family: var(--fontFamily);
@@ -1922,7 +1922,7 @@ Default Section Title Area CSS
 
 .default-section-title h3 {
   margin-bottom: 0px;
-  color: #16815f;
+  color: white;
   font-size: 36px;
   font-weight: 700;
 }
@@ -3310,6 +3310,16 @@ Index 02 Service Area CSS
 /*================================================
 Index 02 About Area CSS
 =================================================*/
+
+.about {
+  background-color: #0d4534;
+  color: white;
+}
+
+.about .p-text-div p {
+  color: white;
+}
+
 .about-img-2 {
   position: relative;
   padding: 30px;
@@ -3376,7 +3386,7 @@ Index 02 About Area CSS
 }
 
 .about-text-area-2 .about-list ul li {
-  color: var(--blackColor);
+  color: white;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
