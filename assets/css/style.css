@@ -54,9 +54,9 @@ This files table contents are outlined below>>>>>
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
-  --fontFamily: 'Barlow Condensed', sans-serif;
-  --fontFamily2: 'Mulish', sans-serif;
-  --mainColor: rgba(255,140,104);
+  --fontFamily: "Barlow Condensed", sans-serif;
+  --fontFamily2: "Mulish", sans-serif;
+  --mainColor: rgba(255, 140, 104);
   --whiteColor: #ffffff;
   --fixWhiteColor: #ffffff;
   --blackColor: #071327;
@@ -66,18 +66,29 @@ This files table contents are outlined below>>>>>
   --card-title-fontSize: 24px;
   --fontSize: 16px;
   --transition: 0.5s;
-  --boxShadow:  rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  --boxShadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 }
 
 body {
   margin: 0px;
   padding: 0px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* background-color: #EFF6D5; */
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--fontFamily);
 }
 
@@ -97,14 +108,14 @@ a:hover {
 :focus {
   outline: 0 !important;
   -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .form-control {
   /* border: 1px solid transparent !important; */
   border: 1px solid var(--paragraphColor);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .form-control:focus {
@@ -115,7 +126,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
 
 p {
   font-family: var(--fontFamily2);
@@ -129,7 +139,7 @@ p:last-child {
   margin-bottom: 0;
 }
 
-.featurs{
+.featurs {
   background-color: var(--whiteColor);
 }
 
@@ -208,15 +218,14 @@ p:last-child {
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
-          box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+  box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-          animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
 
-.sticky .navbar-nav a{
-  color: #0D4534 !important;
+.sticky .navbar-nav a {
+  color: #0d4534 !important;
 }
-
 
 .container-fluid {
   padding-left: 50px;
@@ -232,7 +241,7 @@ p:last-child {
 }
 
 .bg-071327 {
-  background-color: #0D4534;
+  background-color: #0d4534;
 }
 
 .bg-f8f9fc {
@@ -280,11 +289,11 @@ Topbar Area CSS
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
 }
 
 .topbar-right-area .option-select-area {
@@ -316,11 +325,11 @@ Topbar Area CSS
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: var(--fixWhiteColor);
   background-color: #707070;
 }
@@ -430,7 +439,7 @@ a.meanmenu-reveal {
   top: 50%;
   cursor: pointer;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   color: var(--mainColor);
   text-decoration: none;
   font-size: 16px;
@@ -540,7 +549,7 @@ a.meanmenu-reveal {
   margin-bottom: 0;
 }
 
-.mean-container .mean-nav ul li.mean-last .default-button{
+.mean-container .mean-nav ul li.mean-last .default-button {
   background-color: transparent;
   border-radius: 0%;
 }
@@ -606,8 +615,9 @@ a.meanmenu-reveal {
 }
 
 .main-nav nav .navbar-nav {
-  margin-left: auto;
+  margin-left: 75px;
   margin-right: auto;
+  /* background-color: rebeccapurple; */
 }
 
 .main-nav nav .navbar-nav .nav-item {
@@ -617,8 +627,8 @@ a.meanmenu-reveal {
 
 .main-nav nav .navbar-nav .nav-item a {
   padding: 0;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   position: relative;
   color: var(--whiteColor);
   font-size: 15px;
@@ -647,7 +657,7 @@ a.meanmenu-reveal {
 }
 
 .main-nav nav .navbar-nav .nav-item a.dropdown-toggle::after {
-  content: '\f107';
+  content: "\f107";
   font-family: "Font Awesome 5 Free";
   position: absolute;
   top: 2px;
@@ -662,22 +672,21 @@ a.meanmenu-reveal {
   transition: 0.5s;
 }
 
-nav .navbar-brand .inkpot-logo{
+nav .navbar-brand .inkpot-logo {
   filter: invert(1);
 }
 
-.sticky nav .navbar-brand img{
+.sticky nav .navbar-brand img {
   color: white;
 }
 
-.sticky nav .navbar-brand .inkpot-logo{
+.sticky nav .navbar-brand .inkpot-logo {
   filter: invert(0);
 }
 
 .sticky .navbar-light .navbar-brand .black-logo {
   display: block;
 }
-
 
 .sticky nav .navbar-nav .nav-item a.active {
   color: var(--mainColor) !important;
@@ -692,7 +701,7 @@ nav .navbar-brand .inkpot-logo{
 .main-nav nav .navbar-nav .nav-item:hover ul {
   opacity: 1;
   -webkit-transform: rotateY(0deg);
-          transform: rotateY(0deg);
+  transform: rotateY(0deg);
   visibility: visible;
 }
 
@@ -708,14 +717,14 @@ nav .navbar-brand .inkpot-logo{
   visibility: hidden;
   position: absolute;
   -webkit-transform: rotateX(-20deg);
-          transform: rotateX(-20deg);
+  transform: rotateX(-20deg);
   -webkit-transform-origin: top;
-          transform-origin: top;
+  transform-origin: top;
   background: var(--whiteColor);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
   padding-top: 10px;
   padding-left: 0px;
   padding-right: 0px;
@@ -742,29 +751,31 @@ nav .navbar-brand .inkpot-logo{
   position: absolute;
   right: 10px !important;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .main-nav nav .navbar-nav .nav-item .dropdown-menu li a::before {
-  content: '\f0da';
+  content: "\f0da";
   font-size: 0px;
   color: var(--mainColor);
-  -webkit-transition: .2s ease;
-  transition: .2s ease;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
   position: absolute;
   top: 50%;
   left: 10px;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   z-index: 99;
 }
 
-.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover,
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active {
   color: var(--mainColor);
   padding-left: 25px;
 }
 
-.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover::before, .main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active::before {
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover::before,
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a.active::before {
   font-size: 15px;
 }
 
@@ -776,7 +787,15 @@ nav .navbar-brand .inkpot-logo{
   visibility: hidden !important;
 }
 
-.main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.main-nav
+  nav
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  .dropdown-menu {
   top: 20px;
   left: 100%;
   position: absolute;
@@ -788,7 +807,16 @@ nav .navbar-brand .inkpot-logo{
   color: var(--blackColor);
 }
 
-.main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover,
+.main-nav
+  nav
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li
+  .dropdown-menu
+  li
+  a.active {
   color: var(--mainColor);
 }
 
@@ -798,7 +826,15 @@ nav .navbar-brand .inkpot-logo{
   top: -5px !important;
 }
 
-.main-nav nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu li:hover .dropdown-menu {
+.main-nav
+  nav
+  .navbar-nav
+  .nav-item
+  .dropdown-menu
+  li:hover
+  .dropdown-menu
+  li:hover
+  .dropdown-menu {
   opacity: 1 !important;
   visibility: visible !important;
   top: -5px !important;
@@ -813,8 +849,7 @@ nav .navbar-brand .inkpot-logo{
   right: 0;
 }
 
-
-.main-nav .navbar-brand .black-logo{
+.main-nav .navbar-brand .black-logo {
   display: block;
 }
 
@@ -858,8 +893,8 @@ nav .navbar-brand .inkpot-logo{
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .menu-sidebar ul li {
@@ -928,7 +963,7 @@ Index 02 Header Area CSS
   width: 100%;
   z-index: 9999;
   border-bottom: 1px solid var(--whiteColor);
-  background-color: #0D4534;
+  background-color: #0d4534;
 }
 
 .header-area-2 .navbar {
@@ -956,8 +991,8 @@ Popup Area CSS
   border: 0px;
   font-size: 18px;
   border-radius: 0px;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   background-color: var(--mainColor);
   color: var(--whiteColor);
   width: 50px;
@@ -1001,7 +1036,7 @@ Popup Area CSS
   visibility: hidden;
   position: absolute;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .popup .popup-content form .search-box {
@@ -1027,10 +1062,10 @@ Popup Area CSS
 }
 
 .popup .hi {
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  -webkit-transition-delay: .2s;
-          transition-delay: .2s;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
   opacity: 1;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -1050,8 +1085,8 @@ menu-small-device Area CSS
   border: 0px;
   border-radius: 5px;
   font-size: 20px;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   color: var(--mainColor);
   background-color: transparent;
   margin-right: 15px;
@@ -1070,8 +1105,8 @@ menu-small-device Area CSS
   z-index: 999999;
   visibility: hidden;
   background-color: #000000;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .small-device-popup .sidebar-popup-content {
@@ -1103,12 +1138,16 @@ menu-small-device Area CSS
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 30px;
 }
 
-.small-device-popup .sidebar-popup-content .sdp-content .footer-social-icons span {
+.small-device-popup
+  .sidebar-popup-content
+  .sdp-content
+  .footer-social-icons
+  span {
   margin-right: 10px;
   color: var(--whiteColor);
   font-size: 15px;
@@ -1116,17 +1155,32 @@ menu-small-device Area CSS
   font-family: var(--fontFamily2);
 }
 
-.small-device-popup .sidebar-popup-content .sdp-content .footer-social-icons ul {
+.small-device-popup
+  .sidebar-popup-content
+  .sdp-content
+  .footer-social-icons
+  ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
 }
 
-.small-device-popup .sidebar-popup-content .sdp-content .footer-social-icons ul li {
+.small-device-popup
+  .sidebar-popup-content
+  .sdp-content
+  .footer-social-icons
+  ul
+  li {
   display: inline-block;
 }
 
-.small-device-popup .sidebar-popup-content .sdp-content .footer-social-icons ul li a {
+.small-device-popup
+  .sidebar-popup-content
+  .sdp-content
+  .footer-social-icons
+  ul
+  li
+  a {
   width: 30px;
   height: 30px;
   font-size: 15px;
@@ -1136,18 +1190,24 @@ menu-small-device Area CSS
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: var(--mainColor);
   background-color: var(--whiteColor);
   -webkit-box-shadow: 0px 0px 15px -5px #cccccc;
-          box-shadow: 0px 0px 15px -5px #cccccc;
+  box-shadow: 0px 0px 15px -5px #cccccc;
 }
 
-.small-device-popup .sidebar-popup-content .sdp-content .footer-social-icons ul li a:hover {
+.small-device-popup
+  .sidebar-popup-content
+  .sdp-content
+  .footer-social-icons
+  ul
+  li
+  a:hover {
   color: var(--whiteColor);
   background-color: var(--mainColor);
 }
@@ -1215,10 +1275,10 @@ menu-small-device Area CSS
 }
 
 .small-device-popup .s-active {
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  -webkit-transition-delay: .2s;
-          transition-delay: .2s;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
   opacity: 1;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -1231,10 +1291,10 @@ menu-small-device Area CSS
   transition: 1s ease-in-out;
 }
 
-.foot , .choose-inkpot{
+.foot,
+.choose-inkpot {
   row-gap: 10px;
 }
-
 
 /*================================================
 Header Responsive Area CSS
@@ -1242,8 +1302,8 @@ Header Responsive Area CSS
 @media only screen and (max-width: 767px) {
   .topbar-right-side {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .topbar-left-side {
     text-align: center;
@@ -1253,33 +1313,32 @@ Header Responsive Area CSS
     margin-left: 7px;
   }
 
-  .service-card-2{
+  .service-card-2 {
     width: 90%;
     box-shadow: 0px 5px 15px 0px rgba(128, 128, 128, 0.7);
   }
-  .testimonial-card-2{
-      width: 90%;
-      box-shadow: 0px 5px 15px 0px rgba(128, 128, 128, 0.7);
-    }
-    
-  .call-icon{
-      display: inline-flex !important;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .mobile-nav .logo {
-      left: 50%;
-      transform: translateX(-50%);
-    }
-
+  .testimonial-card-2 {
+    width: 90%;
+    box-shadow: 0px 5px 15px 0px rgba(128, 128, 128, 0.7);
   }
+
+  .call-icon {
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile-nav .logo {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .topbar-right-side {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .topbar-left-side {
     text-align: center;
@@ -1301,7 +1360,7 @@ Header Responsive Area CSS
     z-index: 5;
   }
 
-  .sticky .main-responsive-nav{
+  .sticky .main-responsive-nav {
     background-color: var(--whiteColor);
   }
 
@@ -1321,36 +1380,35 @@ Header Responsive Area CSS
     text-decoration: none;
   }
 
-  .mobile-nav .inkpot-logo-mobile{
+  .mobile-nav .inkpot-logo-mobile {
     filter: invert(1);
   }
 
-  .sticky .inkpot-logo-mobile{
+  .sticky .inkpot-logo-mobile {
     filter: invert(0);
   }
 
-  .m-glitter{
+  .m-glitter {
     display: none;
   }
 
-  .m-glitter-light{
+  .m-glitter-light {
     display: block;
   }
 
-  .sticky .m-glitter{
+  .sticky .m-glitter {
     display: block;
   }
 
-  .sticky .m-glitter-light{
+  .sticky .m-glitter-light {
     display: none;
   }
-
 
   .mobile-nav nav .navbar-nav {
     max-height: 64vh;
     overflow-y: scroll;
     -webkit-box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
-            box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
     /* width */
     /* Track */
     /* Handle */
@@ -1400,7 +1458,8 @@ Header Responsive Area CSS
   .meanclose {
     top: 60% !important;
   }
-  .header-1, .header-area-2 {
+  .header-1,
+  .header-area-2 {
     position: relative;
   }
   .topbar {
@@ -1419,16 +1478,16 @@ Header Responsive Area CSS
 }
 
 @media screen and (min-width: 1200px) {
-  .foot{
+  .foot {
     justify-content: space-around;
   }
 
-  .cont-screen{
+  .cont-screen {
     max-width: 95vw;
     width: 95vw;
   }
 
-  .main-nav nav .navbar-nav .nav-item .default-button{
+  .main-nav nav .navbar-nav .nav-item .default-button {
     display: none;
   }
 }
@@ -1460,14 +1519,14 @@ Header Responsive Area CSS
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: var(--paragraphColor);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   background-color: var(--whiteColor);
 }
 
@@ -1661,15 +1720,15 @@ Go Top CSS
   visibility: visible;
   bottom: 65px;
   -webkit-animation: top-bottom 5s infinite linear;
-          animation: top-bottom 5s infinite linear;
+  animation: top-bottom 5s infinite linear;
 }
 
-.call-icon{
+.call-icon {
   display: none;
-  position: fixed;    
+  position: fixed;
   bottom: 50px;
   left: 25px;
-  background-color: #FF8C68;
+  background-color: #ff8c68;
   border-radius: 50%;
   padding: 10px;
   z-index: 2;
@@ -1677,11 +1736,11 @@ Go Top CSS
   width: 45px;
 }
 
-.call-icon img{
+.call-icon img {
   filter: invert(1);
 }
 
-.call-icon::before{
+.call-icon::before {
   content: "";
   position: absolute;
   top: -12px;
@@ -1689,7 +1748,7 @@ Go Top CSS
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background-color: #F7961E;
+  background-color: #f7961e;
   z-index: -1;
   opacity: 0.5;
 }
@@ -1708,16 +1767,16 @@ Buy Now Btn
   top: 50%;
   position: fixed;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   border-radius: 30px;
   display: inline-block;
   color: var(--whiteColor);
   background-color: #82b440;
   padding: 10px 15px 10px 37px;
   -webkit-box-shadow: 0 1px 10px 1px #82b440b9;
-          box-shadow: 0 1px 10px 1px #82b440b9;
+  box-shadow: 0 1px 10px 1px #82b440b9;
   -webkit-animation: jello 3s infinite;
-          animation: jello 3s infinite;
+  animation: jello 3s infinite;
   font-size: 12px;
   font-weight: 600;
 }
@@ -1728,7 +1787,7 @@ Buy Now Btn
   width: 15px;
   position: absolute;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .buy-now-btn:hover {
@@ -1747,19 +1806,19 @@ Default button Area CSS
   border: 0px;
   overflow: hidden !important;
   color: var(--fixWhiteColor);
-  background-color: rgba(255,140,104);
+  background-color: rgba(255, 140, 104);
   font-size: 15px;
   font-weight: 600;
   font-family: var(--fontFamily2);
 }
 
 .default-button::before {
-  content: '';
+  content: "";
   width: 0%;
   height: 2px;
   overflow: hidden;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
   background-color: #fff;
   position: absolute;
   right: unset;
@@ -1769,12 +1828,12 @@ Default button Area CSS
 }
 
 .default-button::after {
-  content: '';
+  content: "";
   width: 2px;
   height: 0%;
   overflow: hidden;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
   background-color: #fff;
   position: absolute;
   left: 0;
@@ -1790,7 +1849,7 @@ Default button Area CSS
 
 .default-button:hover {
   color: var(--fixWhiteColor);
-  background-color: rgba(221,109,74);
+  background-color: rgba(221, 109, 74);
 }
 
 /* .default-button:hover::before {
@@ -1851,7 +1910,7 @@ Default Section Title Area CSS
 }
 
 .default-section-title span::before {
-  content: '';
+  content: "";
   width: 3px;
   height: 100%;
   background-color: var(--mainColor);
@@ -1859,12 +1918,12 @@ Default Section Title Area CSS
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .default-section-title h3 {
   margin-bottom: 0px;
-  color: #16815F;
+  color: #16815f;
   font-size: 36px;
   font-weight: 700;
 }
@@ -1909,10 +1968,17 @@ Index 01 Banner Area CSS
 }
 
 .main-banner-single-slider::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
-  background-image: -webkit-gradient(linear, left top, right top, from(#000000fa), color-stop(#00000069), to(#00000000));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#000000fa),
+    color-stop(#00000069),
+    to(#00000000)
+  );
   background-image: linear-gradient(to right, #000000fa, #00000069, #00000000);
   position: absolute;
   left: 0;
@@ -1974,18 +2040,17 @@ Index 01 Banner Area CSS
   padding-top: 15px;
   padding-bottom: 15px;
   border-radius: 9999px;
-  background-color: rgba(255,140,104);
+  background-color: rgba(255, 140, 104);
 }
 
-.banner-text-area .banner-buttons ul li .default-button:hover{
-  background-color: rgba(221,109,74);
+.banner-text-area .banner-buttons ul li .default-button:hover {
+  background-color: rgba(221, 109, 74);
 }
 
 .banner-text-area .banner-buttons ul li .banner-button {
   color: var(--whiteColor);
   background-color: transparent;
   border: 2px solid var(--whiteColor);
-
 }
 
 .banner-text-area .banner-buttons ul li .banner-button:hover {
@@ -2007,15 +2072,15 @@ Index 01 Banner Area CSS
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   position: absolute;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  transform: translate(-50%, -50%);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   z-index: 0;
   opacity: 0;
 }
@@ -2025,8 +2090,8 @@ Index 01 Banner Area CSS
   height: 40px;
   font-size: 14px !important;
   border-radius: 50%;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
   color: var(--blackColor) !important;
   background-color: var(--whiteColor) !important;
 }
@@ -2049,7 +2114,7 @@ Index 01 Features Area CSS
   position: relative;
   border-radius: 10px;
   -webkit-box-shadow: var(--boxShadow);
-          box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadow);
   padding: 30px 30px 25px 105px;
   background-color: var(--mainColor);
   cursor: pointer;
@@ -2058,8 +2123,8 @@ Index 01 Features Area CSS
 .features-card i {
   font-size: 55px;
   color: var(--blackColor);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   position: absolute;
   left: 30px;
   z-index: 1;
@@ -2067,8 +2132,8 @@ Index 01 Features Area CSS
 }
 
 .features-card h4 {
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   margin-bottom: 10px;
   position: relative;
   z-index: 1;
@@ -2077,19 +2142,18 @@ Index 01 Features Area CSS
 }
 
 .features-card h4 a {
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   color: white;
 }
 
 .features-card p {
   z-index: 1;
   position: relative;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   color: white;
 }
-
 
 /*================================================
 Index 01 About Area CSS
@@ -2117,12 +2181,12 @@ Index 01 About Area CSS
 }
 
 .about-img-area::before {
-  content: '';
+  content: "";
   width: 25%;
   height: 25%;
   border-radius: 0 0 0 10px;
   -webkit-clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
-          clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
   background-color: var(--mainColor);
   position: absolute;
   left: 0;
@@ -2132,7 +2196,7 @@ Index 01 About Area CSS
 
 .about-img-area .about-exp {
   display: inline-block;
-  padding: 20px  20px 15px;
+  padding: 20px 20px 15px;
   text-align: center;
   background-color: rgba(63, 159, 66, 0.9);
   position: absolute;
@@ -2162,8 +2226,8 @@ Index 01 About Area CSS
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: 25px;
 }
 
@@ -2248,7 +2312,7 @@ Index 01 Service Area CSS
 }
 
 .service-card::before {
-  content: '';
+  content: "";
   width: 80%;
   height: 10%;
   border-radius: 10px;
@@ -2258,23 +2322,23 @@ Index 01 Service Area CSS
   left: 50%;
   z-index: 0;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .service-card::after {
-  content: '';
+  content: "";
   width: 0%;
   height: 10%;
   border-radius: 10px;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   background-color: var(--mainColor);
   position: absolute;
   bottom: 0px;
   left: 50%;
   z-index: 0;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .service-card .service-card-img {
@@ -2282,11 +2346,11 @@ Index 01 Service Area CSS
 }
 
 .service-card .service-card-img::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 0%;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   left: 0;
@@ -2297,14 +2361,14 @@ Index 01 Service Area CSS
 .service-card .service-card-img i {
   font-size: 0px;
   color: var(--fixWhiteColor);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   position: absolute;
   left: 50%;
   top: 50%;
   z-index: 1;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .service-card .service-card-text {
@@ -2383,7 +2447,7 @@ Index 01 Why Only Us Area CSS
 .why-only-img-area .ww-team-card {
   border-radius: 10px;
   display: inline-block;
-  padding: 20px  30px 15px;
+  padding: 20px 30px 15px;
   text-align: center;
   background-color: rgba(63, 159, 66, 0.95);
   position: absolute;
@@ -2408,10 +2472,10 @@ Index 01 Why Only Us Area CSS
 .why-only-img-area .ww-project-card {
   border-radius: 10px;
   display: inline-block;
-  padding: 20px  30px 15px;
+  padding: 20px 30px 15px;
   text-align: center;
   -webkit-box-shadow: var(--boxShadow);
-          box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadow);
   background-color: var(--whiteColor);
   position: absolute;
   bottom: 0;
@@ -2447,17 +2511,17 @@ Index 01 Portfolio Area CSS
   background-color: var(--mainColor);
   border-radius: 0px 10px 0px 10px;
   padding: 30px 10px 25px 25px;
-  -webkit-transition: .8s ease-in-out;
-  transition: .8s ease-in-out;
+  -webkit-transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out;
   -webkit-transform-origin: left;
-          transform-origin: left;
+  transform-origin: left;
   position: absolute;
   left: 0;
   bottom: 0;
   z-index: 0;
   width: 95%;
   -webkit-transform: rotateY(90deg);
-          transform: rotateY(90deg);
+  transform: rotateY(90deg);
 }
 
 .portfolio-card .portfolio-card-text-area h4 {
@@ -2482,11 +2546,11 @@ Index 01 Portfolio Area CSS
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: var(--mainColor);
   background-color: var(--whiteColor);
   position: absolute;
@@ -2496,7 +2560,7 @@ Index 01 Portfolio Area CSS
 
 .portfolio-card:hover .portfolio-card-text-area {
   -webkit-transform: rotateY(0);
-          transform: rotateY(0);
+  transform: rotateY(0);
 }
 
 /*================================================
@@ -2507,7 +2571,7 @@ Index 01 Fun Facts Area CSS
 }
 
 .fun-facts-1::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 50%;
   background-color: var(--whiteColor);
@@ -2523,7 +2587,7 @@ Index 01 Fun Facts Area CSS
   padding: 50px 50px 45px;
   background-color: var(--whiteColor);
   -webkit-box-shadow: var(--boxShadow);
-          box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadow);
 }
 
 .fun-facts-text-area p {
@@ -2565,13 +2629,13 @@ Index 01 Team Area CSS
   margin-top: 30px;
   overflow: hidden;
   -webkit-box-shadow: var(--boxShadow);
-          box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadow);
   background-color: var(--whiteColor);
 }
 
 .team-card img {
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .team-card .team-card-text {
@@ -2610,15 +2674,15 @@ Index 01 Team Area CSS
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: var(--fixWhiteColor);
   background-color: #707070;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .team-card .team-card-text ul li a:hover {
@@ -2627,7 +2691,7 @@ Index 01 Team Area CSS
 
 .team-card:hover img {
   -webkit-transform: scale(0.9) rotate(2deg);
-          transform: scale(0.9) rotate(2deg);
+  transform: scale(0.9) rotate(2deg);
 }
 
 /*================================================
@@ -2660,7 +2724,7 @@ Index 01 Why Choose Us Area CSS
 }
 
 .why-we-1::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 100px;
   background-color: var(--whiteColor);
@@ -2674,11 +2738,11 @@ Index 01 Why Choose Us Area CSS
   margin-top: 30px;
   border-radius: 10px;
   padding: 25px 25px 25px;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   background-color: var(--whiteColor);
   -webkit-box-shadow: var(--boxShadow);
-          box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadow);
   position: relative;
   z-index: 2;
 }
@@ -2686,22 +2750,23 @@ Index 01 Why Choose Us Area CSS
 .why-we-card h4 {
   margin-bottom: 12px;
   color: var(--blackColor);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   font-size: var(--card-title-fontSize);
   font-weight: 700;
 }
 
 .why-we-card p {
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .why-we-card:hover {
   background-color: var(--mainColor);
 }
 
-.why-we-card:hover h4, .why-we-card:hover p {
+.why-we-card:hover h4,
+.why-we-card:hover p {
   color: var(--fixWhiteColor);
 }
 
@@ -2721,12 +2786,12 @@ Index 01 Testimonials Area CSS
 }
 
 .testimonial-card::before {
-  content: '';
+  content: "";
   width: 93%;
   height: 100%;
   background-color: var(--whiteColor);
   -webkit-box-shadow: var(--boxShadow);
-          box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadow);
   position: absolute;
   top: 0;
   right: 0;
@@ -2742,7 +2807,7 @@ Index 01 Testimonials Area CSS
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .testimonial-card p {
@@ -2756,13 +2821,13 @@ Index 01 Testimonials Area CSS
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .testimonial-card .testimonial-intro-area h4 {
@@ -2811,8 +2876,8 @@ Index 01 Testimonials Area CSS
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  -webkit-transition: .6s ease-in-out;
-  transition: .6s ease-in-out;
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
   color: var(--whiteColor) !important;
   background-color: var(--blackColor) !important;
 }
@@ -2831,23 +2896,23 @@ Index 01 Testimonials Area CSS
   left: 50%;
   bottom: 13px;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   width: 98%;
   z-index: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .testimonial-slider-area .owl-dots .owl-dot {
   width: 100%;
   height: 2px;
   background-color: #d8d8d8;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .testimonial-slider-area .owl-dots .active {
@@ -2895,13 +2960,13 @@ Index 01 Booking Area CSS
 }
 
 .booking-img::before {
-  content: '';
+  content: "";
   width: 30%;
   height: 30%;
   border-radius: 0px 10px 0px 0px;
   background-color: var(--mainColor);
   -webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 0%);
-          clip-path: polygon(100% 0%, 100% 100%, 0% 0%);
+  clip-path: polygon(100% 0%, 100% 100%, 0% 0%);
   position: absolute;
   top: 20px;
   right: 20px;
@@ -2916,24 +2981,24 @@ Index 01 Blog Area CSS
   border-radius: 10px;
   position: relative;
   -webkit-box-shadow: var(--boxShadow);
-          box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadow);
   background-color: var(--whiteColor);
 }
 
 .blog-card::before {
-  content: '';
+  content: "";
   width: 95%;
   height: 50%;
   border-radius: 15px;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   background-color: var(--mainColor);
   position: absolute;
   bottom: 0px;
   z-index: 0;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .blog-card .blog-img-area {
@@ -3001,7 +3066,7 @@ Index 01 Blog Area CSS
 }
 
 .blog-card .blog-text-area .blog-date ul li::before {
-  content: '/';
+  content: "/";
   font-size: 15px;
   position: absolute;
   right: -10px;
@@ -3048,7 +3113,7 @@ Index 01 Blog Area CSS
 }
 
 .blog-date ul li::before {
-  content: '/';
+  content: "/";
   font-size: 15px;
   position: absolute;
   right: -10px;
@@ -3073,21 +3138,21 @@ Index 01 Partner Area CSS
 .partner-slider-area {
   background-color: var(--whiteColor);
   -webkit-box-shadow: var(--boxShadow);
-          box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadow);
   border-radius: 10px;
   padding: 70px;
 }
 
 .partner-slider-area img {
   -webkit-filter: opacity(0.5);
-          filter: opacity(0.5);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  filter: opacity(0.5);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .partner-slider-area img:hover {
   -webkit-filter: opacity(1);
-          filter: opacity(1);
+  filter: opacity(1);
 }
 
 .partner {
@@ -3095,7 +3160,7 @@ Index 01 Partner Area CSS
 }
 
 .partner::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 50%;
   background-color: #020a18;
@@ -3110,10 +3175,10 @@ Index 02 Banner Area CSS
 =================================================*/
 .home-banner {
   overflow: hidden;
-  background-color: #0D4534;
+  background-color: #0d4534;
   background-size: 200%;
   -webkit-animation: background-colors 15s infinite linear forwards;
-          animation: background-colors 15s infinite linear forwards;
+  animation: background-colors 15s infinite linear forwards;
   position: relative;
   padding-top: 30px;
 }
@@ -3147,11 +3212,11 @@ Index 02 Features Area CSS
 Index 02 Service Area CSS
 =================================================*/
 
-.owl-stage-outer{
+.owl-stage-outer {
   padding: 12px 0px;
 }
 
-.owl-stage{
+.owl-stage {
   padding: 10px 0px;
 }
 
@@ -3163,7 +3228,7 @@ Index 02 Service Area CSS
   flex-direction: column;
   justify-content: space-between;
   border: 1px solid #e4e4e4bb;
-  background-color: #0D4534;
+  background-color: #0d4534;
   border-top-left-radius: 45px;
   border-bottom-left-radius: 45px;
   border-top-right-radius: 45px;
@@ -3185,19 +3250,21 @@ Index 02 Service Area CSS
   font-weight: 600;
 }
 
-.service-card-2-text .read-more-btn, .service-card-2-text p , .service-card-2-text h4 a{
+.service-card-2-text .read-more-btn,
+.service-card-2-text p,
+.service-card-2-text h4 a {
   color: white;
 }
 
-.service-card-2-text h4 a:hover, .service-card-2-text .read-more-btn:hover{
+.service-card-2-text h4 a:hover,
+.service-card-2-text .read-more-btn:hover {
   color: var(--mainColor);
 }
 
-.service-card-2 img{
+.service-card-2 img {
   padding: 5px;
   border-radius: 10px;
 }
-
 
 .slider-area-nav {
   position: relative;
@@ -3205,22 +3272,22 @@ Index 02 Service Area CSS
 
 .slider-area-nav .owl-nav {
   opacity: 0;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   position: absolute;
   left: 50%;
   top: 50%;
   width: 108%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .slider-area-nav .owl-nav button {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   color: var(--whiteColor) !important;
   background-color: var(--blackColor) !important;
 }
@@ -3237,7 +3304,7 @@ Index 02 Service Area CSS
   opacity: 1;
 }
 
-.sticky .navbar-light .navbar-brand .gliter{
+.sticky .navbar-light .navbar-brand .gliter {
   display: none;
 }
 
@@ -3273,10 +3340,10 @@ Index 02 About Area CSS
   text-align: center;
   border-radius: 10px;
   display: inline-block;
-  padding: 20px  20px 15px;
+  padding: 20px 20px 15px;
   background-color: var(--whiteColor);
   -webkit-box-shadow: var(--boxShadow);
-          box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadow);
   position: absolute;
   left: 0;
   top: 0;
@@ -3315,8 +3382,8 @@ Index 02 About Area CSS
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
   margin-top: 12px;
   width: 48%;
   font-family: var(--fontFamily2);
@@ -3336,7 +3403,7 @@ Index 02 Team Area CSS
   margin-top: 30px;
   border-radius: 10px;
   -webkit-box-shadow: var(--boxShadow);
-          box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadow);
   background-color: var(--whiteColor);
 }
 
@@ -3347,8 +3414,8 @@ Index 02 Team Area CSS
 
 .team-card-2 .team-card-2-img img {
   border-radius: 10px 10px 0px 0px;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .team-card-2 .team-card-2-img .team-social-icons {
@@ -3365,12 +3432,12 @@ Index 02 Team Area CSS
 
 .team-card-2 .team-card-2-img .team-social-icons ul li {
   display: inline-block;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   -webkit-transform: rotateX(90deg);
-          transform: rotateX(90deg);
+  transform: rotateX(90deg);
   -webkit-transform-origin: bottom;
-          transform-origin: bottom;
+  transform-origin: bottom;
 }
 
 .team-card-2 .team-card-2-img .team-social-icons ul li a {
@@ -3382,14 +3449,14 @@ Index 02 Team Area CSS
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: var(--whiteColor);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   background-color: var(--blackColor);
 }
 
@@ -3398,8 +3465,8 @@ Index 02 Team Area CSS
 }
 
 .team-card-2 .team-card-2-img .team-social-icons ul li:nth-child(odd) {
-  -webkit-transition: .8s ease-in-out;
-  transition: .8s ease-in-out;
+  -webkit-transition: 0.8s ease-in-out;
+  transition: 0.8s ease-in-out;
 }
 
 .team-card-2 .team-card-text-2 {
@@ -3419,12 +3486,12 @@ Index 02 Team Area CSS
 
 .team-card-2:hover .team-card-2-img img {
   -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .team-card-2:hover .team-card-2-img .team-social-icons ul li {
   -webkit-transform: rotateX(0);
-          transform: rotateX(0);
+  transform: rotateX(0);
 }
 
 /*================================================
@@ -3484,8 +3551,8 @@ Index 02 Testimonial Area CSS
 .testimonial-card-2 .testimonial-card-text-2 i {
   font-size: 45px;
   color: #eeeeee;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .testimonial-card-2 .testimonial-card-text-2 p {
@@ -3525,7 +3592,7 @@ Index 02 Testimonial Area CSS
   color: var(--mainColor);
 }
 
-.testimonial-card-2 .client-img{
+.testimonial-card-2 .client-img {
   width: 81px;
   height: 81px;
 }
@@ -3596,7 +3663,7 @@ Index 03 Banner Area CSS
 }
 
 .banner::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
@@ -3607,7 +3674,7 @@ Index 03 Banner Area CSS
 }
 
 .banner::after {
-  content: '';
+  content: "";
   width: 100%;
   height: 100px;
   background-color: var(--whiteColor);
@@ -3670,11 +3737,12 @@ Index 03 About Area CSS
   left: 10px;
   border-radius: 10px;
   -webkit-box-shadow: var(--boxShadow);
-          box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadow);
   background-color: var(--whiteColor);
 }
 
-.about-img-area-3 .about-exp h4, .about-img-area-3 .about-exp p {
+.about-img-area-3 .about-exp h4,
+.about-img-area-3 .about-exp p {
   color: var(--blackColor);
   font-family: var(--fontFamily);
 }
@@ -3689,7 +3757,7 @@ Index 03 About Area CSS
   top: 0;
   z-index: 0;
   -webkit-animation: top-bottom 2s infinite linear alternate;
-          animation: top-bottom 2s infinite linear alternate;
+  animation: top-bottom 2s infinite linear alternate;
 }
 
 .about-img-area-3 .shape .shape2 {
@@ -3698,7 +3766,7 @@ Index 03 About Area CSS
   bottom: 0;
   z-index: 0;
   -webkit-animation: top-bottom 4s infinite linear alternate;
-          animation: top-bottom 4s infinite linear alternate;
+  animation: top-bottom 4s infinite linear alternate;
 }
 
 /*================================================
@@ -3713,8 +3781,8 @@ Index 03 Services Area CSS
 
 .service-card-3 i {
   font-size: 45px;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   color: var(--blackColor);
 }
 
@@ -3743,8 +3811,8 @@ Index 03 Services Area CSS
   height: 10px;
   margin: 3px;
   border-radius: 50%;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   background-color: #dfe1e3 !important;
 }
 
@@ -3766,13 +3834,13 @@ Index 03 Services Area CSS
   z-index: 0;
   text-align: right;
   -webkit-animation: top-bottom 3s infinite linear alternate;
-          animation: top-bottom 3s infinite linear alternate;
+  animation: top-bottom 3s infinite linear alternate;
 }
 
 .service-3 .shape .shape1 img {
   width: 70%;
   -webkit-filter: opacity(0.4);
-          filter: opacity(0.4);
+  filter: opacity(0.4);
 }
 
 .service-3 .shape .shape2 {
@@ -3781,7 +3849,7 @@ Index 03 Services Area CSS
   left: 15%;
   z-index: 0;
   -webkit-animation: top-bottom 4s infinite linear alternate;
-          animation: top-bottom 4s infinite linear alternate;
+  animation: top-bottom 4s infinite linear alternate;
 }
 
 .service-3 .shape .shape2 img {
@@ -3800,17 +3868,17 @@ Index 03 Portfolio Area CSS
   max-width: 60%;
   border-radius: 10px;
   padding: 20px 20px 15px;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   background-color: rgba(63, 159, 66, 0.9);
   position: absolute;
   left: 30px;
   bottom: 30px;
   z-index: 2;
   -webkit-transform: rotateY(90deg);
-          transform: rotateY(90deg);
+  transform: rotateY(90deg);
   -webkit-transform-origin: left;
-          transform-origin: left;
+  transform-origin: left;
 }
 
 .portfolio-card-3 .portfolio-card-text-3 h4 {
@@ -3830,7 +3898,7 @@ Index 03 Portfolio Area CSS
 
 .portfolio-card-3:hover .portfolio-card-text-3 {
   -webkit-transform: rotateY(0deg);
-          transform: rotateY(0deg);
+  transform: rotateY(0deg);
 }
 
 .portfolio {
@@ -3844,7 +3912,7 @@ Index 03 Portfolio Area CSS
   bottom: 8%;
   z-index: 0;
   -webkit-animation: top-bottom 3s infinite linear alternate;
-          animation: top-bottom 3s infinite linear alternate;
+  animation: top-bottom 3s infinite linear alternate;
 }
 
 /*================================================
@@ -3983,7 +4051,7 @@ Index 03 Blog Area CSS
 }
 
 .blog-3::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 57%;
   background-color: var(--f8f8f8);
@@ -4007,7 +4075,7 @@ Uni Banner Area CSS
   background-repeat: no-repeat;
   background-image: url("../images/inner-images/uni-banner.jpg");
   -webkit-animation: background-colors 20s infinite linear forwards;
-          animation: background-colors 20s infinite linear forwards;
+  animation: background-colors 20s infinite linear forwards;
   position: relative;
 }
 
@@ -4048,7 +4116,7 @@ Uni Banner Area CSS
 }
 
 .uni-banner-text-area ul li::after {
-  content: '\f101';
+  content: "\f101";
   font-size: 12px;
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
@@ -4056,7 +4124,7 @@ Uni Banner Area CSS
   right: -18px;
   top: 55%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .uni-banner-text-area ul li:last-child::after {
@@ -4071,7 +4139,7 @@ Testimonial Area CSS
 }
 
 .testimonial-4::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 50%;
   background-color: var(--f8f8f8);
@@ -4093,8 +4161,8 @@ Pricing Area CSS
   margin-top: 30px;
   border-radius: 10px;
   border: 1px solid #eeeeee;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   position: relative;
   padding: 30px 30px 30px;
 }
@@ -4193,9 +4261,9 @@ FAQ Area CSS
   min-height: 40px;
   position: relative;
   /* color: var(--blackColor) !important; */
-  color: #16815F !important;
+  color: #16815f !important;
   -webkit-box-shadow: none !important;
-          box-shadow: none !important;
+  box-shadow: none !important;
   background-color: var(--whiteColor);
   padding: 15px 55px 15px 15px;
   border-radius: 5px !important;
@@ -4213,14 +4281,14 @@ FAQ Area CSS
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: #a2a2a2;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   background-color: #ffffff;
   position: absolute;
   right: 10px;
@@ -4240,7 +4308,7 @@ FAQ Area CSS
 
 .accordion-button:not(.collapsed) i {
   -webkit-transform: rotateX(180deg);
-          transform: rotateX(180deg);
+  transform: rotateX(180deg);
   color: var(--mainColor);
 }
 
@@ -4304,16 +4372,16 @@ Portfolio Area CSS
 =================================================*/
 .portfolio-contents .nav {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   border: 0px;
 }
 
 .portfolio-contents .nav .nav-link {
   border: 0px;
   color: var(--blackColor);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   background-color: var(--f8f8f8);
   border-radius: 25px;
   margin: 0px 3px 5px;
@@ -4336,12 +4404,12 @@ Portfolio Area CSS
 }
 
 .portfolio-card-4::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
   left: 0;
@@ -4357,8 +4425,8 @@ Portfolio Area CSS
   width: 100%;
   padding: 0px 25px 25px;
   opacity: 0;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .portfolio-card-4 .portfolio-card-4-text-area h4 {
@@ -4375,7 +4443,8 @@ Portfolio Area CSS
   color: var(--fixWhiteColor);
 }
 
-.portfolio-card-4:hover::before, .portfolio-card-4:hover .portfolio-card-4-text-area {
+.portfolio-card-4:hover::before,
+.portfolio-card-4:hover .portfolio-card-4-text-area {
   opacity: 1;
 }
 
@@ -4390,7 +4459,7 @@ Portfolio Details Area CSS
 =================================================*/
 .details-page-title {
   margin-bottom: 15px;
-  color: #16815F;
+  color: #16815f;
   font-size: 28px;
   font-weight: 600;
 }
@@ -4406,7 +4475,7 @@ Portfolio Details Area CSS
 
 .pd-info-area h3 {
   margin-bottom: 15px;
-  color: #16815F;
+  color: #16815f;
   font-size: var(--card-title-fontSize);
   font-weight: 600;
 }
@@ -4433,7 +4502,7 @@ Portfolio Details Area CSS
 .pd-info-area ul li span:first-child {
   position: absolute;
   left: 0;
-  color: #16815F;
+  color: #16815f;
 }
 
 .pd-info-area ul li span:last-child {
@@ -4523,7 +4592,7 @@ Blog Details Area CSS
 =================================================*/
 .blog-details-text-area {
   -webkit-box-shadow: var(--boxShadow);
-          box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadow);
 }
 
 .blog-details-text-area .bdt-text {
@@ -4542,7 +4611,7 @@ Blog Details Area CSS
 }
 
 .blog-details-text-area .blog-quote::before {
-  content: '';
+  content: "";
   width: 2px;
   height: 100%;
   background-color: var(--mainColor);
@@ -4563,17 +4632,17 @@ Blog Details Area CSS
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   border-radius: 0px;
   padding: 3px 15px 15px 15px;
   -webkit-box-shadow: var(--boxShadow);
-          box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadow);
 }
 
 .blog-text-footer ul {
@@ -4616,8 +4685,8 @@ Blog Details Area CSS
 }
 
 .blog-text-footer .tag-area ul li:hover {
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .blog-text-footer .tag-area ul li:hover a {
@@ -4649,11 +4718,11 @@ Blog Details Area CSS
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .blog-text-footer .social-icons ul li a:hover {
@@ -4729,7 +4798,7 @@ Blog Details Area CSS
 
 .blog-details-page-form-area {
   -webkit-box-shadow: var(--boxShadow);
-          box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadow);
   padding: 30px;
   margin-top: 30px;
   border-radius: 10px;
@@ -4746,7 +4815,7 @@ Details page Sidebar Area CSS
 
 .sidebar-card h3 {
   margin-bottom: 20px;
-  color: #16815F;
+  color: #16815f;
   font-size: var(--card-title-fontSize);
   font-weight: 600;
 }
@@ -4766,11 +4835,11 @@ Details page Sidebar Area CSS
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   background-color: var(--whiteColor);
   color: var(--paragraphColor);
   padding: 12px 15px;
@@ -4848,8 +4917,8 @@ Details page Sidebar Area CSS
 .search-box .btn {
   border-radius: 50% !important;
   color: var(--whiteColor);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   background-color: var(--mainColor);
 }
 
@@ -4857,7 +4926,8 @@ Details page Sidebar Area CSS
   background-color: var(--blackColor);
 }
 
-.recent-news, .sd-tag {
+.recent-news,
+.sd-tag {
   margin-top: 30px;
 }
 
@@ -4950,16 +5020,16 @@ Details page Sidebar Area CSS
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   background-color: var(--whiteColor);
   -webkit-box-shadow: var(--boxShadow);
-          box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadow);
   font-family: var(--fontFamily2);
   font-size: var(--fontSize);
   font-weight: 700;
@@ -5030,11 +5100,11 @@ Contact Page CSS
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   color: var(--paragraphColor);
 }
 
@@ -5046,7 +5116,7 @@ Contact Page CSS
 .contact-page-form-area {
   padding: 30px;
   -webkit-box-shadow: var(--boxShadow);
-          box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadow);
 }
 
 .contact-page-form-area .default-section-title h3 {
@@ -5117,7 +5187,7 @@ Log In Page CSS
   transition-duration: 0.3s;
 }
 
-.login-form form .default-button:hover{
+.login-form form .default-button:hover {
   background-color: #f5754e;
 }
 
@@ -5141,15 +5211,19 @@ Terms & Privacy area CSS
 
 .terms strong {
   /* color: var(--blackColor); */
-  
-  color: #FF8C68;
+
+  color: #ff8c68;
 }
 
 .terms a {
   color: var(--mainColor);
 }
 
-.terms h1, .terms h2, .terms h3, .terms h4, .terms h5 {
+.terms h1,
+.terms h2,
+.terms h3,
+.terms h4,
+.terms h5 {
   margin-top: 25px;
   margin-bottom: 15px;
   font-family: var(--fontFamily);
@@ -5160,32 +5234,32 @@ Terms & Privacy area CSS
   font-size: 20px;
   font-weight: 600;
   font-family: var(--fontFamily);
-  color: #16815F;
+  color: #16815f;
 }
 
 .terms h1 {
   font-size: 30px;
-  color: #16815F;
+  color: #16815f;
 }
 
 .terms h2 {
   font-size: 28px;
-  color: #16815F;
+  color: #16815f;
 }
 
 .terms h3 {
   font-size: 26px;
-  color: #16815F;
+  color: #16815f;
 }
 
 .terms h4 {
   font-size: 24px;
-  color: #16815F;
+  color: #16815f;
 }
 
 .terms h5 {
   font-size: 22px;
-  color: #16815F;
+  color: #16815f;
 }
 
 .terms p {
@@ -5210,7 +5284,7 @@ Terms & Privacy area CSS
   font-weight: 700;
   margin-right: 8px;
   /* color: var(--blackColor); */
-  color: #FF8C68;
+  color: #ff8c68;
 }
 
 .terms .payment li {
@@ -5219,7 +5293,7 @@ Terms & Privacy area CSS
 }
 
 .terms .payment li::before {
-  content: '';
+  content: "";
   width: 10px;
   height: 10px;
   border-radius: 50%;
@@ -5242,7 +5316,7 @@ Coming Soon Area CSS
 
 .coming {
   -webkit-box-shadow: var(--boxShadow);
-          box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadow);
   padding: 30px;
   text-align: center;
 }
@@ -5305,19 +5379,19 @@ Coming Soon Area CSS
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .getting-start div {
   border-radius: 8px;
   -ms-flex-preferred-size: 150px;
-      flex-basis: 150px;
+  flex-basis: 150px;
   padding: 15px 0px;
   text-align: center;
   background-color: var(--fix-blackColor);
   -webkit-box-shadow: var(--boxShadow);
-          box-shadow: var(--boxShadow);
+  box-shadow: var(--boxShadow);
 }
 
 .getting-start div span {
@@ -5356,11 +5430,11 @@ Coming Soon Area CSS
   display: -ms-inline-flexbox;
   display: inline-flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: var(--f8f8f8);
   color: var(--paragraphColor);
 }
@@ -5399,28 +5473,28 @@ Animation Area CSS
 @-webkit-keyframes top-bottom {
   0% {
     -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
   }
   50% {
     -webkit-transform: translateY(20px);
-            transform: translateY(20px);
+    transform: translateY(20px);
   }
 }
 
 @keyframes top-bottom {
   0% {
     -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
   }
   50% {
     -webkit-transform: translateY(20px);
-            transform: translateY(20px);
+    transform: translateY(20px);
   }
 }
 
-/* for navbar nav scroll bar hide for chrome, firefox, edge, safari, etc */ 
+/* for navbar nav scroll bar hide for chrome, firefox, edge, safari, etc */
 
-.navbar-nav::-webkit-scrollbar{
+.navbar-nav::-webkit-scrollbar {
   display: none;
 }
 
@@ -5431,6 +5505,5 @@ Animation Area CSS
 .navbar-nav {
   -ms-overflow-style: none;
 }
-
 
 /*# sourceMappingURL=style.css.map */
