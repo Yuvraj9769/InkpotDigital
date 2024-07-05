@@ -1806,7 +1806,7 @@ Buy Now Btn
 Default button Area CSS
 =================================================*/
 .default-button {
-  padding: 12px 15px;
+  padding: 7px 10px;
   border-radius: 9999px;
   position: relative;
   display: inline-block;
