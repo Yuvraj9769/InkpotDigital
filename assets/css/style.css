@@ -77,6 +77,94 @@ body {
   /* background-color: #EFF6D5; */
 }
 
+.market-cont {
+  background-color: #7c60d5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-man {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.section-man h2,
+.section-man p {
+  color: white;
+}
+
+.section-man .img {
+  border: 10px solid #7c60d5;
+  background: #ffffff;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 200px;
+  position: relative;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  animation: one-animated 10s infinite;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.markethon {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 50px 20px;
+  max-width: 1800px;
+  width: 100%;
+}
+
+.upper-text .title {
+  color: white;
+}
+
+.upper-text .title:nth-child(1) {
+  font-size: 20px;
+}
+
+.lower-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: yellowgreen; */
+  position: relative;
+  z-index: 2;
+}
+
+.dotted-line {
+  position: absolute;
+  width: 80%;
+  top: 40%;
+  z-index: 1;
+}
+
+@keyframes one-animated {
+  0% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+  25% {
+    border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
+  }
+  50% {
+    border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
+  }
+  75% {
+    border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%;
+  }
+}
+
 .h1,
 .h2,
 .h3,
@@ -1335,6 +1423,24 @@ Header Responsive Area CSS
     left: 50%;
     transform: translateX(-50%);
   }
+
+  .lower-div {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .markethon {
+    gap: 35px;
+  }
+
+  .section-man {
+    width: 100%;
+    margin: 0;
+  }
+
+  .dotted-line {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1496,6 +1602,17 @@ Header Responsive Area CSS
 
   .main-nav nav .navbar-nav .nav-item .default-button {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .dotted-line {
+    top: 33%;
+  }
+
+  .section-man .img {
+    height: 220px;
+    width: 200px;
   }
 }
 
