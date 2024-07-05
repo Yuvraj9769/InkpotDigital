@@ -1519,12 +1519,12 @@ Header Responsive Area CSS
 
 @media screen and (min-width: 1500px) {
   .dotted-line {
-    top: 33%;
+    top: 33% !important;
   }
 
   .section-man .img {
-    height: 220px;
-    width: 200px;
+    width: 200px !important;
+    height: 260px !important;
   }
 }
 
