@@ -691,7 +691,8 @@ nav .sticky-logo {
   display: block;
 }
 
-.sticky nav .navbar-nav .nav-item a.active {
+.sticky nav .navbar-nav .nav-item a.active,
+.sticky nav .navbar-nav .nav-item a:hover {
   color: var(--mainColor) !important;
   -webkit-transition: 0.5s;
   transition: 0.5s;
