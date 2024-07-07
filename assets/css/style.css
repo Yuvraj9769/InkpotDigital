@@ -2149,8 +2149,7 @@ Index 01 Banner Area CSS
 
 .banner-text-area .banner-buttons ul li .default-button {
   margin-top: 20px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px;
   border-radius: 9999px;
   background-color: rgba(255, 140, 104);
 }
