@@ -1936,10 +1936,11 @@ market-cont Area CSS
 =================================================*/
 
 .market-cont {
-  background-color: #7c60d5;
+  background-color: #0d4534;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 45px;
 }
 
 .section-man {
@@ -1957,7 +1958,7 @@ market-cont Area CSS
 }
 
 .section-man .img {
-  border: 10px solid #7c60d5;
+  border: 10px solid #0d4534;
   background: #ffffff;
   text-align: center;
   display: flex;
@@ -3669,6 +3670,7 @@ Index 02 Testimonial Area CSS
   border-top-right-radius: 45px;
   overflow: hidden;
   box-shadow: 2px 9px 11px 0px rgba(128, 128, 128, 0.3);
+  background-color: #0d4534;
 }
 
 .testimonial-card-2 .testimonial-card-text-2 {
@@ -3708,7 +3710,7 @@ Index 02 Testimonial Area CSS
 }
 
 .testimonial-card-2 .testimonial-card-2-intro h4 {
-  color: var(--blackColor);
+  color: white;
   margin-top: 10px;
   margin-bottom: 5px;
   font-size: var(--card-title-fontSize);
@@ -3717,6 +3719,7 @@ Index 02 Testimonial Area CSS
 
 .testimonial-card-2 .testimonial-card-2-intro p {
   font-size: 14px;
+  color: var(--mainColor);
 }
 
 .testimonial-card-2:hover .testimonial-card-text-2 i {
