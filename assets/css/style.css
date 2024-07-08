@@ -1449,7 +1449,7 @@ Header Responsive Area CSS
     width: 70px;
     z-index: 2;
     border-radius: 50%;
-    border: 10px solid #bbeaf6;
+    border: 10px solid var(--mainColor);
   }
 
   .clientimg-2 {
@@ -1460,7 +1460,7 @@ Header Responsive Area CSS
     z-index: 2;
     top: -35px;
     border-radius: 50%;
-    border: 10px solid #bbeaf6;
+    border: 10px solid var(--mainColor);
   }
 
   .clientimg-3 {
@@ -1471,7 +1471,7 @@ Header Responsive Area CSS
     z-index: 2;
     top: -25px;
     border-radius: 50%;
-    border: 10px solid #bbeaf6;
+    border: 10px solid var(--mainColor);
   }
 }
 
@@ -1562,7 +1562,7 @@ Header Responsive Area CSS
     width: 70px;
     z-index: 2;
     border-radius: 50%;
-    border: 10px solid #bbeaf6;
+    border: 10px solid var(--mainColor);
   }
 
   .clientimg-2 {
@@ -1573,7 +1573,7 @@ Header Responsive Area CSS
     z-index: 2;
     top: -35px;
     border-radius: 50%;
-    border: 10px solid #bbeaf6;
+    border: 10px solid var(--mainColor);
   }
 
   .clientimg-3 {
@@ -1584,7 +1584,7 @@ Header Responsive Area CSS
     z-index: 2;
     top: -25px;
     border-radius: 50%;
-    border: 10px solid #bbeaf6;
+    border: 10px solid var(--mainColor);
   }
 }
 
@@ -3939,7 +3939,7 @@ Index 02 Testimonial Area CSS
 
 .testimonial-card-2 {
   padding: 20px;
-  border: 10px solid #bbeaf6;
+  border: 10px solid var(--mainColor);
   border-top-left-radius: 45px;
   border-bottom-left-radius: 45px;
   border-top-right-radius: 45px;
@@ -4049,7 +4049,7 @@ Index 02 Testimonial Area CSS
   padding: 2px;
   position: absolute;
   border-radius: 50%;
-  border: 10px solid #bbeaf6;
+  border: 10px solid var(--mainColor);
   right: 0;
 }
 
