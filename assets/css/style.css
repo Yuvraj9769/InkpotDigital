@@ -1383,9 +1383,6 @@ Header Responsive Area CSS
   .test-div {
     display: none !important;
   }
-  .default-section-title-middle {
-    margin-bottom: 25px !important;
-  }
   .testimonial-card-2 {
     width: 90% !important;
     position: relative !important;
@@ -1496,9 +1493,6 @@ Header Responsive Area CSS
   .sec-test-div {
     height: 500px !important;
     min-height: 500px !important;
-  }
-  .default-section-title-middle {
-    margin-bottom: 25px;
   }
   .testimonial-card-2 {
     width: 90% !important;
@@ -2323,6 +2317,7 @@ Default Section Title Area CSS
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 25px;
 }
 
 /* For green like bg animation */
