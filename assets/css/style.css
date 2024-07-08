@@ -1412,18 +1412,6 @@ Header Responsive Area CSS
     display: none;
   }
 
-  /* .client-img {
-    left: -251px !important;
-    top: -3px !important;
-    z-index: 3 !important;
-  }
-
-  .img-2 {
-    right: 0px !important;
-    top: 10px !important;
-    z-index: 3 !important;
-  } */
-
   .mob-test-div {
     display: flex !important;
     flex-direction: column;
@@ -1440,8 +1428,8 @@ Header Responsive Area CSS
 
   .clientimg-1 {
     position: absolute;
-    top: -20px;
-    left: -55px;
+    top: -35px;
+    left: -45px;
     height: 70px;
     width: 70px;
     z-index: 2;
@@ -1462,13 +1450,17 @@ Header Responsive Area CSS
 
   .clientimg-3 {
     position: absolute;
-    left: -50px;
+    left: -43px;
     height: 70px;
     width: 70px;
     z-index: 2;
-    top: -25px;
+    top: -35px;
     border-radius: 50%;
     border: 10px solid var(--mainColor);
+  }
+
+  .default-section-title {
+    margin-bottom: 25px !important;
   }
 }
 
@@ -1550,10 +1542,10 @@ Header Responsive Area CSS
 
   .clientimg-1 {
     position: absolute;
-    top: -20px;
-    left: -55px;
-    height: 70px;
-    width: 70px;
+    top: -40px;
+    left: -64px;
+    height: 85px;
+    width: 85px;
     z-index: 2;
     border-radius: 50%;
     border: 10px solid var(--mainColor);
@@ -1562,8 +1554,8 @@ Header Responsive Area CSS
   .clientimg-2 {
     position: absolute;
     right: -45px;
-    height: 70px;
-    width: 70px;
+    height: 85px;
+    width: 85px;
     z-index: 2;
     top: -35px;
     border-radius: 50%;
@@ -1572,13 +1564,17 @@ Header Responsive Area CSS
 
   .clientimg-3 {
     position: absolute;
-    left: -50px;
-    height: 70px;
-    width: 70px;
+    left: -65px;
+    height: 85px;
+    width: 85px;
     z-index: 2;
-    top: -25px;
+    top: -33px;
     border-radius: 50%;
     border: 10px solid var(--mainColor);
+  }
+
+  .default-section-title {
+    margin-bottom: 25px !important;
   }
 }
 
