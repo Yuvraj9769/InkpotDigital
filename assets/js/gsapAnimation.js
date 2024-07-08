@@ -33,7 +33,7 @@ gsap.from(".features-card", {
 gsap.from(".upper-text", {
   duration: 1,
   opacity: 0,
-  y: -400,
+  y: -300,
   scrollTrigger: {
     trigger: ".upper-text",
     start: "top 60%",
@@ -45,7 +45,7 @@ gsap.from(".upper-text", {
 gsap.from([".lower-div", ".dotted-line"], {
   duration: 1,
   opacity: 0,
-  y: 400,
+  y: 300,
   scrollTrigger: {
     trigger: ".upper-text",
     start: "top 60%",
