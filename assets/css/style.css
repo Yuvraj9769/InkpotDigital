@@ -1775,7 +1775,6 @@ Header Responsive Area CSS
   .first-third-message {
     right: -85px !important;
     z-index: 2;
-    top: 60% !important;
   }
 
   .first-sec-message {
@@ -3960,7 +3959,7 @@ Index 02 Testimonial Area CSS
 
 .first-third-message {
   right: -35px;
-  top: 56%;
+  top: 60%;
   width: 55%;
 }
 
