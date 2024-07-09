@@ -3942,7 +3942,8 @@ Index 02 Testimonial Area CSS
   background-color: #0d4534;
   position: absolute;
   top: 0;
-  box-shadow: 10px 4px 9px 0px gray;
+  /* box-shadow: 10px 4px 9px 0px gray; */
+  box-shadow: 9px 10px 9px 0px gray !important;
 }
 
 .first-user-message {
@@ -3956,12 +3957,14 @@ Index 02 Testimonial Area CSS
   top: 47%;
   transform: translateY(-50%);
   width: 85%;
+  z-index: 3;
 }
 
 .first-third-message {
   right: -35px;
   top: 60%;
   width: 55%;
+  z-index: 4;
 }
 
 .testimonial-card-2 .testimonial-card-text-2 {
