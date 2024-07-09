@@ -4037,6 +4037,10 @@ Index 02 Testimonial Area CSS
   color: #0d4534;
 }
 
+.test-div b {
+  color: #16815f;
+}
+
 .right-test-img-div {
   padding: 5px;
   width: 32%;
