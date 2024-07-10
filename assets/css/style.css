@@ -3598,6 +3598,10 @@ Index 02 Features Area CSS
 Index 02 Service Area CSS
 =================================================*/
 
+.service-div {
+  background-color: #0d4534;
+}
+
 .owl-stage-outer {
   padding: 12px 0px;
 }
@@ -4564,11 +4568,7 @@ Uni Banner Area CSS
 =================================================*/
 .uni-banner {
   overflow: hidden;
-  background-size: 200%;
-  background-repeat: no-repeat;
-  background-image: url("../images/inner-images/uni-banner.jpg");
-  -webkit-animation: background-colors 20s infinite linear forwards;
-  animation: background-colors 20s infinite linear forwards;
+  background-color: #0d4534;
   position: relative;
 }
 
@@ -4584,7 +4584,7 @@ Uni Banner Area CSS
   font-size: 48px;
   font-weight: 700;
   font-family: var(--fontFamily);
-  color: var(--blackColor);
+  color: white;
   margin-bottom: 15px;
 }
 
@@ -4605,7 +4605,7 @@ Uni Banner Area CSS
 }
 
 .uni-banner-text-area ul li a {
-  color: var(--blackColor);
+  color: white;
 }
 
 .uni-banner-text-area ul li::after {
