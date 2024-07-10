@@ -196,6 +196,44 @@ p:last-child {
 
 .section-content {
   margin-top: 20px;
+  background-color: red;
+}
+
+.service-cards-cont {
+  background-color: teal;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.service-service-card {
+  border-radius: 20px !important;
+  height: 280px !important;
+  align-items: center;
+  justify-content: space-around !important;
+  transition: all 0.5s linear;
+}
+
+.service-service-card:hover {
+  cursor: pointer;
+  box-shadow: 0px -4px 5px 0px var(--mainColor) !important;
+}
+
+.service-service-card:hover .serv-card-a {
+  color: var(--mainColor) !important;
+}
+
+.serv-card-a {
+  font-size: 25px;
+  transition: color 0.5s linear;
+}
+
+.service-service-card a {
+  color: white;
+}
+
+.serv-text {
+  align-items: center;
+  height: 185px !important;
 }
 
 .sec-test-div {
@@ -1462,6 +1500,11 @@ Header Responsive Area CSS
   .default-section-title {
     margin-bottom: 25px !important;
   }
+
+  .service-cards-cont {
+    grid-template-columns: repeat(1, auto) !important;
+    place-items: center;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1740,6 +1783,9 @@ Header Responsive Area CSS
   .right-test-img-div .img-3 {
     width: 190px !important;
     height: 190px !important;
+  }
+  .service-cards-cont {
+    grid-template-columns: repeat(2, auto);
   }
 }
 
