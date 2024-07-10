@@ -2213,7 +2213,6 @@ market-cont Area CSS
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 45px;
 }
 
 .section-man {
@@ -4122,7 +4121,7 @@ Index 02 Blog Area CSS
 
 .blog-card-2 .blog-text-area {
   border: 1px solid #eeeeee;
-  border-radius: 0px;
+  border-radius: 10px;
   border-top: 0px;
 }
 
@@ -4132,7 +4131,6 @@ Index 02 Blog Area CSS
 
 .news-div {
   background-color: #0d4534;
-  margin-bottom: 45px;
 }
 
 .news-span {
