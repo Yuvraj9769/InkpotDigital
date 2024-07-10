@@ -4113,7 +4113,7 @@ Index 02 Blog Area CSS
 =================================================*/
 
 .blog .latest-articles {
-  color: #0d4534;
+  color: white;
 }
 
 .blog-card-2 .blog-img-area .blog-img-date {
@@ -4128,6 +4128,15 @@ Index 02 Blog Area CSS
 
 .blog-card-2::before {
   display: none;
+}
+
+.news-div {
+  background-color: #0d4534;
+  margin-bottom: 45px;
+}
+
+.news-span {
+  color: white !important;
 }
 
 /*================================================
