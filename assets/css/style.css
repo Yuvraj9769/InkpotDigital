@@ -199,7 +199,7 @@ p:last-child {
 }
 
 .service-cards-cont {
-  background-color: teal;
+  /* background-color: teal; */
   display: grid;
   grid-template-columns: repeat(3, auto);
 }
