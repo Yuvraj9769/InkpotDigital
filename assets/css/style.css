@@ -1216,6 +1216,10 @@ menu-small-device Area CSS
   list-style: none;
 }
 
+.footer {
+  border-top: 1px solid var(--whiteColor);
+}
+
 .small-device-popup
   .sidebar-popup-content
   .sdp-content
@@ -3851,6 +3855,14 @@ Index 02 About Area CSS
   margin-right: 5px;
 }
 
+.why-we-about {
+  background-color: #0d4534;
+}
+
+.about-why-span {
+  color: white !important;
+}
+
 /*================================================
 Index 02 Team Area CSS
 =================================================*/
@@ -5010,6 +5022,7 @@ Portfolio Details Area CSS
 
 .details-main-img {
   margin-bottom: 25px;
+  border-radius: 15px;
 }
 
 .pd-info-area {
@@ -5061,6 +5074,8 @@ Portfolio Details Area CSS
   background-repeat: no-repeat;
   background-image: url("../images/inner-images/pd2.jpg");
   height: 100%;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
 .pd-second-area .pds-img-area img {
@@ -5081,6 +5096,10 @@ Service Details Area CSS
 
 .sd-img-area img {
   margin-bottom: 25px;
+}
+
+.sd-img img {
+  border-radius: 15px;
 }
 
 .sd-list-area .details-page-title {
@@ -5489,6 +5508,7 @@ Details page Sidebar Area CSS
 .recent-news-card img {
   position: absolute;
   left: 0;
+  border-radius: 10px;
 }
 
 .recent-news-card h5 {
@@ -5661,6 +5681,7 @@ Contact Page CSS
   padding: 30px;
   -webkit-box-shadow: var(--boxShadow);
   box-shadow: var(--boxShadow);
+  border-radius: 15px;
 }
 
 .contact-page-form-area .default-section-title h3 {
@@ -5863,6 +5884,7 @@ Coming Soon Area CSS
   box-shadow: var(--boxShadow);
   padding: 30px;
   text-align: center;
+  border-radius: 15px;
 }
 
 .coming .c-logo {
