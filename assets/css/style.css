@@ -1348,7 +1348,7 @@ menu-small-device Area CSS
 
 .foot,
 .choose-inkpot {
-  row-gap: 10px;
+  row-gap: 45px;
 }
 
 .mob-test-div {
@@ -1507,6 +1507,11 @@ Header Responsive Area CSS
   .service-cards-cont {
     grid-template-columns: repeat(1, auto) !important;
     place-items: center;
+  }
+
+  .foot,
+  .choose-inkpot {
+    row-gap: 10px;
   }
 }
 
@@ -3783,15 +3788,8 @@ Index 02 About Area CSS
 
 .about-img-2 .shape .shape1 {
   position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 0;
-}
-
-.about-img-2 .shape .shape2 {
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  bottom: -20px;
+  left: -20px;
   z-index: 0;
 }
 
@@ -4177,7 +4175,6 @@ Index 02 Why Choose US Area CSS
 .shape svg {
   rotate: 90deg;
 }
-
 
 /*================================================
 Index 02 Blog Area CSS
