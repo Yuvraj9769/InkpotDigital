@@ -4174,6 +4174,11 @@ Index 02 Why Choose US Area CSS
   z-index: 0;
 }
 
+.shape svg {
+  rotate: 90deg;
+}
+
+
 /*================================================
 Index 02 Blog Area CSS
 =================================================*/
