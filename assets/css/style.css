@@ -5378,6 +5378,20 @@ Details page Sidebar Area CSS
   background-color: var(--f8f8f8);
 }
 
+.service-details-scroll-div {
+  height: 250px;
+  overflow-y: scroll;
+}
+
+.service-details-scroll-div::-webkit-scrollbar {
+  width: 10px;
+}
+
+.service-details-scroll-div::-webkit-scrollbar-thumb {
+  background-color: var(--mainColor);
+  border-radius: 10px;
+}
+
 .sidebar-card h3 {
   margin-bottom: 20px;
   color: #16815f;
