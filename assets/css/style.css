@@ -5372,6 +5372,7 @@ Blog Details Area CSS
 /*================================================
 Details page Sidebar Area CSS
 =================================================*/
+
 .sidebar-card {
   padding: 30px 20px;
   border-radius: 10px;
@@ -5381,6 +5382,11 @@ Details page Sidebar Area CSS
 .service-details-scroll-div {
   height: 250px;
   overflow-y: scroll;
+}
+
+.sidebar-area {
+  position: sticky;
+  top: 69px;
 }
 
 .service-details-scroll-div::-webkit-scrollbar {
