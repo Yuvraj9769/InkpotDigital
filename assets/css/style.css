@@ -199,9 +199,10 @@ p:last-child {
 }
 
 .service-cards-cont {
-  /* background-color: teal; */
-  display: grid;
-  grid-template-columns: repeat(3, auto);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 .service-service-card {
@@ -214,7 +215,6 @@ p:last-child {
 
 .service-service-card:hover {
   cursor: pointer;
-  box-shadow: 0px -4px 5px 0px var(--mainColor) !important;
 }
 
 .service-service-card:hover .serv-card-a {
@@ -3671,9 +3671,9 @@ Index 02 Service Area CSS
 }
 
 .service-card-2 {
-  margin: 30px 20px 0px;
   padding: 15px;
   height: 455px;
+  width: 326px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
