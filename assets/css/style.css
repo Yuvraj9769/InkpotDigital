@@ -203,6 +203,7 @@ p:last-child {
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  row-gap: 30px;
 }
 
 .service-service-card {
