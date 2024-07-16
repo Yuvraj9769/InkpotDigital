@@ -68,7 +68,7 @@
     bottom: 30px;
     left: unset;
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
     opacity: 1;
   }
   .slider-nav .owl-nav button {
@@ -80,7 +80,7 @@
     right: unset;
     top: unset;
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
   }
   .theme-switcher {
     bottom: 20px;
@@ -107,8 +107,8 @@
   }
   .topbar-right-area {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     padding-bottom: 5px;
     margin-top: 6px;
   }
@@ -201,7 +201,8 @@
   /*================================================
     Index 01 Why Only We Area CSS
     =================================================*/
-  .why-only-img-area .ww-project-card h4, .why-only-img-area .ww-team-card h4 {
+  .why-only-img-area .ww-project-card h4,
+  .why-only-img-area .ww-team-card h4 {
     font-size: 24px;
   }
   /*================================================
@@ -234,7 +235,7 @@
     top: unset;
     left: unset;
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
   }
   .testimonial-card p {
     font-size: 15px;
@@ -281,7 +282,7 @@
     =================================================*/
   .team-card-2 .team-card-2-img .team-social-icons ul li {
     -webkit-transform: rotateX(0deg);
-            transform: rotateX(0deg);
+    transform: rotateX(0deg);
   }
   /*================================================
     Index 02 Testimonial Area CSS
@@ -515,7 +516,7 @@
     margin-top: 0px;
   }
 
-  .mobile-header{
+  .mobile-header {
     width: 100%;
     max-width: 95vw;
   }
@@ -573,7 +574,7 @@
     bottom: 50px;
     left: unset;
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
     opacity: 1;
   }
   .slider-nav .owl-nav button {
@@ -587,8 +588,8 @@
   }
   .topbar-right-area {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     padding-bottom: 8px;
     margin-top: 8px;
   }
@@ -616,7 +617,7 @@
     padding-left: 0px;
   }
 
-  .mobile-header{
+  .mobile-header {
     width: 100%;
     max-width: 95vw;
   }
@@ -826,8 +827,8 @@
   }
   .topbar-right-area {
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     padding-bottom: 5px;
   }
   /*================================================
@@ -851,7 +852,7 @@
     padding-left: 0px;
   }
 
-  .mobile-header{
+  .mobile-header {
     width: 100%;
     max-width: 95vw;
   }
@@ -879,7 +880,7 @@
   /*================================================
     Index 01 footer Area CSS
     =================================================*/
-  
+
   .footer-news-area {
     margin-top: 0px;
   }
@@ -945,7 +946,6 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-  
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
