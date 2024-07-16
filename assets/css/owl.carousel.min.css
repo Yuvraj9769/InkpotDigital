@@ -1,9 +1,9 @@
-/**
+/* *
  * Owl Carousel v2.3.4
  * Copyright 2013-2018 David Deutsch
  * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
  */
- .owl-carousel,
+.owl-carousel,
 .owl-carousel .owl-item {
   -webkit-tap-highlight-color: transparent;
   position: relative;
@@ -52,6 +52,9 @@
   float: left;
   -webkit-backface-visibility: hidden;
   -webkit-touch-callout: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .owl-carousel .owl-item img {
@@ -152,12 +155,12 @@
 }
 
 .owl-height {
-  transition: height .5s ease-in-out;
+  transition: height 0.5s ease-in-out;
 }
 
 .owl-carousel .owl-item .owl-lazy {
   opacity: 0;
-  transition: opacity .4s ease;
+  transition: opacity 0.4s ease;
 }
 
 .owl-carousel .owl-item .owl-lazy:not([src]),
@@ -187,7 +190,7 @@
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;
-  transition: transform .1s ease;
+  transition: transform 0.1s ease;
 }
 
 .owl-carousel .owl-video-play-icon:hover {
@@ -206,7 +209,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  transition: opacity .4s ease;
+  transition: opacity 0.4s ease;
 }
 
 .owl-carousel .owl-video-frame {
@@ -218,63 +221,63 @@
 
 /* Media query for devices with width < 768px */
 @media (max-width: 768px) {
-    .owl-carousel .owl-stage {
-        display: flex;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-      }
-    
-      .owl-carousel .owl-stage-outer {
-        overflow-x: scroll;
-      }
+  .owl-carousel .owl-stage {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
 
-    .owl-carousel .owl-stage-outer::-webkit-scrollbar{
-        display: none;
-      }
-    
-      .owl-carousel .owl-nav {
-        position: absolute;
-        top: 50%;
-        width: 109% !important;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        transform: translateY(-50%);
-        padding: 0 10px;
-        box-sizing: border-box;
-        /* background-color: rebeccapurple; */
-      }
-    
-      .owl-carousel .owl-nav .owl-prev,
-      .owl-carousel .owl-nav .owl-next {
-        background: rgba(0, 0, 0, 0.5);
-        color: #fff;
-        padding: 10px;
-        border-radius: 50%;
-        cursor: pointer;
-        display: block;
-      }
-    
-      .owl-carousel .owl-dots {
-        text-align: center;
-        margin-top: 10px;
-      }
-    
-      .owl-carousel .owl-dot {
-        display: inline-block;
-        margin: 0 5px;
-      }
+  .owl-carousel .owl-stage-outer {
+    overflow-x: scroll;
+  }
 
-  .owl-item{
+  .owl-carousel .owl-stage-outer::-webkit-scrollbar {
+    display: none;
+  }
+
+  .owl-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 109% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(-50%);
+    padding: 0 10px;
+    box-sizing: border-box;
+    /* background-color: rebeccapurple; */
+  }
+
+  .owl-carousel .owl-nav .owl-prev,
+  .owl-carousel .owl-nav .owl-next {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: block;
+  }
+
+  .owl-carousel .owl-dots {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .owl-carousel .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  .owl-item {
     display: flex !important;
     justify-content: center;
     align-items: center;
     padding-bottom: 10px;
-}
+  }
 }
 
 @media screen and (max-width: 648px) {
-    .owl-carousel  .owl-nav {
-        display: none;
-}
+  .owl-carousel .owl-nav {
+    display: none;
+  }
 }
