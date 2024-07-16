@@ -227,6 +227,11 @@ p:last-child {
   transition: color 0.5s linear;
 }
 
+.serv-card-a img {
+  width: 80px;
+  padding: 0 !important;
+}
+
 .service-service-card a {
   color: white;
 }
@@ -1514,6 +1519,10 @@ Header Responsive Area CSS
   .choose-inkpot {
     row-gap: 10px;
   }
+
+  .shape-about {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2360,6 +2369,14 @@ Default Section Title Area CSS
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.about-def-sec-span {
+  color: white !important;
+}
+
+.white-txt-about {
+  color: white !important;
 }
 
 .why-we-span,
@@ -4157,6 +4174,13 @@ Index 02 Why Choose US Area CSS
   left: 0;
   top: 0;
   z-index: 0;
+}
+
+.shape-about {
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  rotate: 90deg;
 }
 
 .why-we-img-area-2 .shape-img .shape2 {
