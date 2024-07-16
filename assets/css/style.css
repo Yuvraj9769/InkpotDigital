@@ -4670,6 +4670,10 @@ Uni Banner Area CSS
   padding-bottom: 100px;
 }
 
+.about-comp-txt {
+  padding-bottom: 0;
+}
+
 .uni-banner-text-area h1 {
   font-size: 48px;
   font-weight: 700;
