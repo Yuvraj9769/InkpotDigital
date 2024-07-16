@@ -1523,6 +1523,10 @@ Header Responsive Area CSS
   .shape-about {
     display: none;
   }
+
+  .about-comp-txt {
+    padding-bottom: 25px !important;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1640,6 +1644,10 @@ Header Responsive Area CSS
 
   .default-section-title {
     margin-bottom: 25px !important;
+  }
+
+  .about-comp-txt {
+    padding-bottom: 30px !important;
   }
 }
 
@@ -1819,6 +1827,9 @@ Header Responsive Area CSS
 
   .main-nav nav .navbar-nav .nav-item .default-button {
     display: none;
+  }
+  .about-uni {
+    padding-bottom: 1px;
   }
 }
 
@@ -3785,6 +3796,10 @@ Index 02 About Area CSS
   color: white;
 }
 
+.about-pb {
+  padding-top: 20px !important;
+}
+
 .about .p-text-div p {
   color: white;
 }
@@ -4667,7 +4682,7 @@ Uni Banner Area CSS
   text-align: center;
   z-index: 1;
   padding-top: 155px;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
 }
 
 .uni-banner-text-area h1 {
