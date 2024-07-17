@@ -1527,6 +1527,18 @@ Header Responsive Area CSS
   .about-comp-txt {
     padding-bottom: 25px !important;
   }
+
+  .contact-right-div {
+    box-shadow: none !important;
+    border-radius: none !important;
+    padding-top: 0 !important;
+  }
+
+  .cont-right-main-div {
+    margin-top: 30px;
+    box-shadow: var(--boxShadow);
+    border-radius: 15px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1648,6 +1660,24 @@ Header Responsive Area CSS
 
   .about-comp-txt {
     padding-bottom: 30px !important;
+  }
+
+  .contact-right-div {
+    box-shadow: none !important;
+    border-radius: none !important;
+    padding-top: 0 !important;
+  }
+
+  .cont-right-main-div {
+    margin-top: 30px;
+    box-shadow: var(--boxShadow);
+    border-radius: 15px;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px) {
+  .contact-right-div {
+    padding: 57px 30px !important;
   }
 }
 
@@ -5771,6 +5801,29 @@ Contact Page CSS
 .with-errors ul li {
   color: red;
 }
+
+.contact-btn-msg {
+  transition: all 0.5s linear;
+}
+
+.contact-def-sec-h3 {
+  color: black !important;
+}
+
+.contact-left-div {
+  padding: 15px;
+  box-shadow: var(--boxShadow);
+  border-radius: 15px;
+}
+
+.contact-left-div .contact-card-area {
+  padding-right: 0;
+}
+
+/* 
+.contact-right-div {
+  padding: 40px;
+} */
 
 /*================================================
 Google Map area CSS
