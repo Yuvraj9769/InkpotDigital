@@ -1361,6 +1361,24 @@ menu-small-device Area CSS
   display: none !important;
 }
 
+.blog-cat-div {
+  position: sticky;
+  top: 70px;
+  z-index: 2;
+}
+
+.side-recent-blog {
+  position: sticky;
+  top: 80px;
+  z-index: 2;
+}
+
+.side-card-div {
+  position: sticky;
+  top: 100px;
+  z-index: 2;
+}
+
 /*================================================
 Header Responsive Area CSS
 =================================================*/
@@ -1547,6 +1565,18 @@ Header Responsive Area CSS
   .cat-read-btn a:first-child {
     height: 95px !important;
   }
+
+  .blog-cat-div {
+    position: static;
+  }
+
+  .side-recent-blog {
+    position: static;
+  }
+
+  .side-card-div {
+    position: static;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1692,6 +1722,17 @@ Header Responsive Area CSS
 
   .cat-read-btn a:first-child {
     height: 95px !important;
+  }
+  .blog-cat-div {
+    position: static;
+  }
+
+  .side-recent-blog {
+    position: static;
+  }
+
+  .side-card-div {
+    position: static;
   }
 }
 
@@ -5888,6 +5929,11 @@ Contact Page CSS
 
 .contact-left-div .contact-card-area {
   padding-right: 0;
+}
+
+.cont-left-div {
+  position: sticky !important;
+  top: 0px;
 }
 
 /* 
