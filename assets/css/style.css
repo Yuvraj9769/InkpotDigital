@@ -1539,6 +1539,14 @@ Header Responsive Area CSS
     box-shadow: var(--boxShadow);
     border-radius: 15px;
   }
+
+  .price-div {
+    justify-content: center;
+  }
+
+  .cat-read-btn a:first-child {
+    height: 95px !important;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1673,11 +1681,27 @@ Header Responsive Area CSS
     box-shadow: var(--boxShadow);
     border-radius: 15px;
   }
+
+  .price-div {
+    justify-content: center;
+  }
+
+  .cat-read-btn {
+    margin-top: 10px !important;
+  }
+
+  .cat-read-btn a:first-child {
+    height: 95px !important;
+  }
 }
 
 @media screen and (min-width: 991px) and (max-width: 1199px) {
   .contact-right-div {
     padding: 57px 30px !important;
+  }
+
+  .ser-ch-div {
+    margin-top: 10px;
   }
 }
 
@@ -1893,6 +1917,10 @@ Header Responsive Area CSS
   .sec-test-div {
     height: 370px;
     min-height: 370px;
+  }
+
+  .cat-read-btn a:first-child {
+    height: 95px !important;
   }
 }
 
@@ -4266,6 +4294,41 @@ Index 02 Blog Area CSS
 
 .blog-card-2::before {
   display: none;
+}
+
+.blog-card-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blog-text-div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding: 30px 20px 0px 20px !important;
+  width: 100%;
+}
+
+.blog-div {
+  height: 100%;
+}
+
+.cat-read-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  height: 161px;
+  width: 100%;
+}
+
+.cat-read-btn a:first-child {
+  height: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
 }
 
 .news-div {
